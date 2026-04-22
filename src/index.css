@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Design system — Warm terracotta editorial portfolio.
+   All colors MUST be HSL. */
+
+@layer base {
+  :root {
+    /* Core surfaces */
+    --background: 36 40% 97%;          /* warm cream */
+    --foreground: 20 25% 15%;          /* deep cocoa */
+
+    --card: 36 40% 97%;
+    --card-foreground: 20 25% 15%;
+
+    --popover: 36 40% 97%;
+    --popover-foreground: 20 25% 15%;
+
+    /* Brand — terracotta */
+    --primary: 16 55% 52%;             /* terracotta */
+    --primary-foreground: 36 50% 98%;
+    --primary-soft: 16 60% 92%;        /* clay tint */
+    --primary-deep: 14 50% 38%;        /* burnt clay */
+
+    --secondary: 32 30% 92%;           /* warm sand */
+    --secondary-foreground: 20 25% 18%;
+
+    --muted: 34 25% 93%;
+    --muted-foreground: 22 15% 40%;
+
+    --accent: 16 60% 92%;
+    --accent-foreground: 14 50% 30%;
+
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 36 50% 98%;
+
+    --border: 30 20% 88%;
+    --input: 30 20% 88%;
+    --ring: 16 55% 52%;
+
+    --radius: 0.75rem;
+
+    /* Editorial tokens */
+    --surface-warm: 34 38% 94%;
+    --surface-deep: 18 35% 22%;
+
+    --gradient-warm: linear-gradient(180deg, hsl(36 45% 98%) 0%, hsl(32 38% 94%) 100%);
+    --gradient-clay: linear-gradient(135deg, hsl(16 55% 52%) 0%, hsl(14 50% 42%) 100%);
+    --gradient-soft: linear-gradient(135deg, hsl(16 60% 94%) 0%, hsl(34 38% 94%) 100%);
+
+    --shadow-soft: 0 1px 2px hsl(20 25% 15% / 0.04), 0 8px 24px -12px hsl(16 55% 40% / 0.18);
+    --shadow-elev: 0 10px 40px -18px hsl(14 50% 30% / 0.28);
+
+    --transition-smooth: all 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 20 25% 10%;
+    --foreground: 36 30% 94%;
+    --card: 20 25% 12%;
+    --card-foreground: 36 30% 94%;
+    --popover: 20 25% 12%;
+    --popover-foreground: 36 30% 94%;
+    --primary: 16 60% 58%;
+    --primary-foreground: 20 25% 10%;
+    --secondary: 20 20% 18%;
+    --secondary-foreground: 36 30% 94%;
+    --muted: 20 18% 18%;
+    --muted-foreground: 30 15% 65%;
+    --accent: 18 35% 22%;
+    --accent-foreground: 36 30% 94%;
+    --border: 20 18% 22%;
+    --input: 20 18% 22%;
+    --ring: 16 60% 58%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-feature-settings: "ss01", "cv11";
+  }
+  h1, h2, h3, h4 {
+    @apply font-serif tracking-tight;
+  }
+}
+
+@layer utilities {
+  .container-prose {
+    @apply mx-auto max-w-6xl px-6 md:px-10;
+  }
+  .container-narrow {
+    @apply mx-auto max-w-4xl px-6 md:px-10;
+  }
+  .bg-gradient-warm { background-image: var(--gradient-warm); }
+  .bg-gradient-clay { background-image: var(--gradient-clay); }
+  .bg-gradient-soft { background-image: var(--gradient-soft); }
+  .shadow-soft { box-shadow: var(--shadow-soft); }
+  .shadow-elev { box-shadow: var(--shadow-elev); }
+  .transition-smooth { transition: var(--transition-smooth); }
+
+  html { scroll-behavior: smooth; }
+}
