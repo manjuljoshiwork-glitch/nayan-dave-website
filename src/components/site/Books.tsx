@@ -29,8 +29,8 @@ const books: Book[] = [
     title: "Evil Alliance and a Rogue Agent",
     tagline: "A Novel · Techno-Political Thriller",
     description: [
-      "A top-secret NASA mission ends in disaster, and the world's satellites begin to fail. As GPS systems collapse and chaos spreads, a hidden alliance of Russia, China, Iran, and North Korea executes a master plan to bring the superpower to its knees.",
-      "Framed for crimes he didn't commit, CIA agent Jason Smith sits on death row with one last chance to expose the truth — aided only by a mysterious priest who may be more than he appears.",
+      "A top-secret NASA mission ends up in disaster, and the US satellites failures mystery remains in limbo. Collapse of GPS system spreads chaos in the world. Ships collide at mid sea; airplanes land at odd cities. Petroleum extractors end up in dry beds with no oil. A hidden alliance of Russia, China, Iran, and North Korea executes a master plan to bring the superpower to its knees.",
+      "Framed for crimes he didn't commit, CIA agent Jason Smith sits on death row with one last chance to expose the truth — aided only by a mysterious priest who may be more than he appears. Doomsday scenario appears on the horizon, kill or get killed… Read the book for the final verdict.",
     ],
     cover: book2,
     alt: "Cover of Evil Alliance and a Rogue Agent by Nayan Dave",
@@ -98,7 +98,7 @@ const BookRow = ({ book }: { book: Book }) => (
 
 export const Books = () => {
   return (
-    <section id="books" className="bg-surface-warm/60 py-24 md:py-32">
+    <section id="books" className="bg-surface-warm/60 py-14 md:py-24">
       <div className="container-prose">
         <div className="mb-16 max-w-2xl md:mb-20 mx-auto text-center">
           <span className="text-xs uppercase tracking-[0.22em] text-primary">The Books</span>
@@ -107,7 +107,7 @@ export const Books = () => {
           </h2>
         </div>
 
-        <div className="space-y-24 md:space-y-32">
+        <div className="space-y-16 md:space-y-24">
           {books.map((b) => (
             <BookRow key={b.title} book={b} />
           ))}

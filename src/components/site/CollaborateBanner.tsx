@@ -1,6 +1,6 @@
 export const CollaborateBanner = () => {
   return (
-    <section id="collaborate" className="py-24 md:py-28">
+    <section id="collaborate" className="py-14 md:py-20">
       <div className="container-prose">
         <div className="relative overflow-hidden rounded-[2rem] bg-gradient-clay px-8 py-16 text-center text-primary-foreground shadow-elev md:px-16 md:py-24">
           {/* Ambient glows */}

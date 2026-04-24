@@ -56,7 +56,7 @@ export const Contact = () => {
   };
 
   return (
-    <section id="contact" className="bg-surface-warm/60 py-24 md:py-32">
+    <section id="contact" className="bg-surface-warm/60 py-14 md:py-24">
       <div className="container-prose grid gap-12 md:grid-cols-2 md:gap-20 md:items-center">
         {/* Left — soft scenic card inspired by reference */}
         <div className="relative overflow-hidden rounded-[2rem] bg-gradient-to-b from-secondary via-background to-primary-soft/40 p-8 md:p-12 min-h-[520px] shadow-soft border border-border/60">
