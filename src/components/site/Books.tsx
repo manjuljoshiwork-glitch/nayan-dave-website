@@ -17,8 +17,8 @@ const books: Book[] = [
     title: "Exotic Bomb",
     tagline: "A Novel · Science Thriller",
     description: [
-      "From a writer with a deep science and medical-technology background comes a gripping work of fiction that educates, entertains, and keeps you in suspense.",
-      "A thriller where imagined politics, invented characters, and a single dangerous idea collide in a story built to be lived in, not just read.",
+      "A professor and scientist from Lawrence Livermore Laboratory invents a new isotope of Uranium using the world's most powerful lasers — called the 'Ignition Facility.' This isotope requires no critical mass to explode; little pressure on the core can detonate it with the yield of a regular nuclear bomb.",
+      "A syndicate of billionaires hijacks the professor and his technology to create a new world order — one run by scientists, not politicians, with zero greenhouse gases and fully sustainable human existence. World goes through many changes during the process. For the final outcome, read the book Exotic Bomb.",
     ],
     cover: book1,
     alt: "Cover of Exotic Bomb by Nayan Dave",
