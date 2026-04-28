@@ -24,11 +24,11 @@ export const About = () => {
           <div className="mt-6 space-y-5 text-[15px] leading-relaxed text-muted-foreground">
             <p>
               For decades, I dedicated my precision, accuracy and curiosity to Microscopes, Pipettes and computers and waited for the results to come.
-              Science taught me to look closely and patiently, ask why when in confusion and find wonders in smallest details.
+              Science taught me to look closely and patiently, ask why when in confusion, and find wonders in the smallest details.
             </p>
             <p>
-              Story telling came later in my life, what began as simple imagination, turned into small chits, big characters and the ultimate book.
-              Narratives came from a lifetime of human observation and curiosity of why.
+              Storytelling came later in my life — what began as simple imagination turned into small chits, big characters and the ultimate book.
+              Narratives came from a lifetime of human observation and curiosity about why.
             </p>
             <p>
               Today, I write with one hope that these stories will flow beyond pages, onto screens, into voices, and into the hands of creators who can bring them to life in new and lasting ways.

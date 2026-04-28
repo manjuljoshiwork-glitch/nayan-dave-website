@@ -18,7 +18,7 @@ const books: Book[] = [
     tagline: "A Novel · Science Thriller",
     description: [
       "A professor and scientist from Lawrence Livermore Laboratory invents a new isotope of Uranium using the world's most powerful lasers — called the 'Ignition Facility.' This isotope requires no critical mass to explode; little pressure on the core can detonate it with the yield of a regular nuclear bomb.",
-      "A syndicate of billionaires hijacks the professor and his technology to create a new world order — one run by scientists, not politicians, with zero greenhouse gases and fully sustainable human existence. World goes through many changes during the process. For the final outcome, read the book Exotic Bomb.",
+      "A syndicate of billionaires hijacks the professor and his technology to create a new world order — one run by scientists, not politicians, with zero greenhouse gases and fully sustainable human existence. The world goes through many changes during the process. For the final outcome, read the book Exotic Bomb.",
     ],
     cover: book1,
     alt: "Cover of Exotic Bomb by Nayan Dave",
@@ -29,7 +29,7 @@ const books: Book[] = [
     title: "Evil Alliance and a Rogue Agent",
     tagline: "A Novel · Techno-Political Thriller",
     description: [
-      "A top-secret NASA mission ends up in disaster, and the US satellites failures mystery remains in limbo. Collapse of GPS system spreads chaos in the world. Ships collide at mid sea; airplanes land at odd cities. Petroleum extractors end up in dry beds with no oil. A hidden alliance of Russia, China, Iran, and North Korea executes a master plan to bring the superpower to its knees.",
+      "A top-secret NASA mission ends up in disaster, and the US satellite failures mystery remains in limbo. The collapse of the GPS system spreads chaos in the world. Ships collide at mid-sea; airplanes land at odd cities. Petroleum extractors end up in dry beds with no oil. A hidden alliance of Russia, China, Iran, and North Korea executes a master plan to bring the superpower to its knees.",
       "Framed for crimes he didn't commit, CIA agent Jason Smith sits on death row with one last chance to expose the truth — aided only by a mysterious priest who may be more than he appears. Doomsday scenario appears on the horizon, kill or get killed… Read the book for the final verdict.",
     ],
     cover: book2,
@@ -42,7 +42,7 @@ const books: Book[] = [
     tagline: "A Novel · Romantic Drama",
     description: [
       "A compassionate love story of a brave veteran reporter who loses her sight to war injuries and decides to end her life — until a military research doctor vows to restore what the battlefield took from her.",
-      "Filled with twists, raw emotion, and quiet sacrifice, this romantic and reality-driven story captures the anguish of disability and the unseen cost of war — with an unsuspecting ending that will fill your heart with grace and tenderness.",
+      "Filled with twists, raw emotion, and quiet sacrifice, this romantic and reality-driven story captures the anguish of disability and the unseen cost of war — with an unexpected ending that will fill your heart with grace and tenderness.",
     ],
     cover: book3,
     alt: "Cover of Darkness of My Eyes by Nayan Dave",
